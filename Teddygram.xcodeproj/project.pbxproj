@@ -422,7 +422,7 @@
 				DEVELOPMENT_TEAM = DHM8245DER;
 				INFOPLIST_FILE = Teddygram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paulmun.Teddygram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app2048;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -435,7 +435,7 @@
 				DEVELOPMENT_TEAM = DHM8245DER;
 				INFOPLIST_FILE = Teddygram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paulmun.Teddygram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app2048;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
