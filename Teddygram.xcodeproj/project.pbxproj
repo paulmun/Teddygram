@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA20B1391DD4E87200F738BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B1381DD4E87200F738BD /* AppDelegate.swift */; };
+		DA20B13B1DD4E87200F738BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B13A1DD4E87200F738BD /* ViewController.swift */; };
+		DA20B13E1DD4E87200F738BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA20B13C1DD4E87200F738BD /* Main.storyboard */; };
+		DA20B1411DD4E87200F738BD /* Teddygram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA20B13F1DD4E87200F738BD /* Teddygram.xcdatamodeld */; };
+		DA20B1431DD4E87200F738BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA20B1421DD4E87200F738BD /* Assets.xcassets */; };
+		DA20B1461DD4E87200F738BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA20B1441DD4E87200F738BD /* LaunchScreen.storyboard */; };
+		DA20B1511DD4E87200F738BD /* TeddygramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B1501DD4E87200F738BD /* TeddygramTests.swift */; };
+		DA20B15C1DD4E87200F738BD /* TeddygramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B15B1DD4E87200F738BD /* TeddygramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA20B14D1DD4E87200F738BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA20B12D1DD4E87200F738BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA20B1341DD4E87200F738BD;
+			remoteInfo = Teddygram;
+		};
+		DA20B1581DD4E87200F738BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA20B12D1DD4E87200F738BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA20B1341DD4E87200F738BD;
+			remoteInfo = Teddygram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA20B1351DD4E87200F738BD /* Teddygram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teddygram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA20B1381DD4E87200F738BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA20B13A1DD4E87200F738BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA20B13D1DD4E87200F738BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA20B1401DD4E87200F738BD /* Teddygram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teddygram.xcdatamodel; sourceTree = "<group>"; };
+		DA20B1421DD4E87200F738BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA20B1451DD4E87200F738BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA20B1471DD4E87200F738BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA20B14C1DD4E87200F738BD /* TeddygramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeddygramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA20B1501DD4E87200F738BD /* TeddygramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeddygramTests.swift; sourceTree = "<group>"; };
+		DA20B1521DD4E87200F738BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA20B1571DD4E87200F738BD /* TeddygramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeddygramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA20B15B1DD4E87200F738BD /* TeddygramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeddygramUITests.swift; sourceTree = "<group>"; };
+		DA20B15D1DD4E87200F738BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA20B1321DD4E87200F738BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA20B1491DD4E87200F738BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA20B1541DD4E87200F738BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA20B12C1DD4E87200F738BD = {
+			isa = PBXGroup;
+			children = (
+				DA20B1371DD4E87200F738BD /* Teddygram */,
+				DA20B14F1DD4E87200F738BD /* TeddygramTests */,
+				DA20B15A1DD4E87200F738BD /* TeddygramUITests */,
+				DA20B1361DD4E87200F738BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA20B1361DD4E87200F738BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA20B1351DD4E87200F738BD /* Teddygram.app */,
+				DA20B14C1DD4E87200F738BD /* TeddygramTests.xctest */,
+				DA20B1571DD4E87200F738BD /* TeddygramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA20B1371DD4E87200F738BD /* Teddygram */ = {
+			isa = PBXGroup;
+			children = (
+				DA20B1381DD4E87200F738BD /* AppDelegate.swift */,
+				DA20B13A1DD4E87200F738BD /* ViewController.swift */,
+				DA20B13C1DD4E87200F738BD /* Main.storyboard */,
+				DA20B1421DD4E87200F738BD /* Assets.xcassets */,
+				DA20B1441DD4E87200F738BD /* LaunchScreen.storyboard */,
+				DA20B1471DD4E87200F738BD /* Info.plist */,
+				DA20B13F1DD4E87200F738BD /* Teddygram.xcdatamodeld */,
+			);
+			path = Teddygram;
+			sourceTree = "<group>";
+		};
+		DA20B14F1DD4E87200F738BD /* TeddygramTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA20B1501DD4E87200F738BD /* TeddygramTests.swift */,
+				DA20B1521DD4E87200F738BD /* Info.plist */,
+			);
+			path = TeddygramTests;
+			sourceTree = "<group>";
+		};
+		DA20B15A1DD4E87200F738BD /* TeddygramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA20B15B1DD4E87200F738BD /* TeddygramUITests.swift */,
+				DA20B15D1DD4E87200F738BD /* Info.plist */,
+			);
+			path = TeddygramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA20B1341DD4E87200F738BD /* Teddygram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA20B1601DD4E87200F738BD /* Build configuration list for PBXNativeTarget "Teddygram" */;
+			buildPhases = (
+				DA20B1311DD4E87200F738BD /* Sources */,
+				DA20B1321DD4E87200F738BD /* Frameworks */,
+				DA20B1331DD4E87200F738BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teddygram;
+			productName = Teddygram;
+			productReference = DA20B1351DD4E87200F738BD /* Teddygram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA20B14B1DD4E87200F738BD /* TeddygramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA20B1631DD4E87200F738BD /* Build configuration list for PBXNativeTarget "TeddygramTests" */;
+			buildPhases = (
+				DA20B1481DD4E87200F738BD /* Sources */,
+				DA20B1491DD4E87200F738BD /* Frameworks */,
+				DA20B14A1DD4E87200F738BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA20B14E1DD4E87200F738BD /* PBXTargetDependency */,
+			);
+			name = TeddygramTests;
+			productName = TeddygramTests;
+			productReference = DA20B14C1DD4E87200F738BD /* TeddygramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA20B1561DD4E87200F738BD /* TeddygramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA20B1661DD4E87200F738BD /* Build configuration list for PBXNativeTarget "TeddygramUITests" */;
+			buildPhases = (
+				DA20B1531DD4E87200F738BD /* Sources */,
+				DA20B1541DD4E87200F738BD /* Frameworks */,
+				DA20B1551DD4E87200F738BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA20B1591DD4E87200F738BD /* PBXTargetDependency */,
+			);
+			name = TeddygramUITests;
+			productName = TeddygramUITests;
+			productReference = DA20B1571DD4E87200F738BD /* TeddygramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA20B12D1DD4E87200F738BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Team No Shoes";
+				TargetAttributes = {
+					DA20B1341DD4E87200F738BD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DHM8245DER;
+						ProvisioningStyle = Automatic;
+					};
+					DA20B14B1DD4E87200F738BD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DHM8245DER;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA20B1341DD4E87200F738BD;
+					};
+					DA20B1561DD4E87200F738BD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DHM8245DER;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA20B1341DD4E87200F738BD;
+					};
+				};
+			};
+			buildConfigurationList = DA20B1301DD4E87200F738BD /* Build configuration list for PBXProject "Teddygram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA20B12C1DD4E87200F738BD;
+			productRefGroup = DA20B1361DD4E87200F738BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA20B1341DD4E87200F738BD /* Teddygram */,
+				DA20B14B1DD4E87200F738BD /* TeddygramTests */,
+				DA20B1561DD4E87200F738BD /* TeddygramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA20B1331DD4E87200F738BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA20B1461DD4E87200F738BD /* LaunchScreen.storyboard in Resources */,
+				DA20B1431DD4E87200F738BD /* Assets.xcassets in Resources */,
+				DA20B13E1DD4E87200F738BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA20B14A1DD4E87200F738BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA20B1551DD4E87200F738BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA20B1311DD4E87200F738BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA20B13B1DD4E87200F738BD /* ViewController.swift in Sources */,
+				DA20B1411DD4E87200F738BD /* Teddygram.xcdatamodeld in Sources */,
+				DA20B1391DD4E87200F738BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA20B1481DD4E87200F738BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA20B1511DD4E87200F738BD /* TeddygramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA20B1531DD4E87200F738BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA20B15C1DD4E87200F738BD /* TeddygramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA20B14E1DD4E87200F738BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA20B1341DD4E87200F738BD /* Teddygram */;
+			targetProxy = DA20B14D1DD4E87200F738BD /* PBXContainerItemProxy */;
+		};
+		DA20B1591DD4E87200F738BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA20B1341DD4E87200F738BD /* Teddygram */;
+			targetProxy = DA20B1581DD4E87200F738BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA20B13C1DD4E87200F738BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA20B13D1DD4E87200F738BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA20B1441DD4E87200F738BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA20B1451DD4E87200F738BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA20B15E1DD4E87200F738BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA20B15F1DD4E87200F738BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA20B1611DD4E87200F738BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DHM8245DER;
+				INFOPLIST_FILE = Teddygram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulmun.Teddygram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DA20B1621DD4E87200F738BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DHM8245DER;
+				INFOPLIST_FILE = Teddygram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulmun.Teddygram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DA20B1641DD4E87200F738BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DHM8245DER;
+				INFOPLIST_FILE = TeddygramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulmun.TeddygramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teddygram.app/Teddygram";
+			};
+			name = Debug;
+		};
+		DA20B1651DD4E87200F738BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DHM8245DER;
+				INFOPLIST_FILE = TeddygramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulmun.TeddygramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teddygram.app/Teddygram";
+			};
+			name = Release;
+		};
+		DA20B1671DD4E87200F738BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DHM8245DER;
+				INFOPLIST_FILE = TeddygramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulmun.TeddygramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Teddygram;
+			};
+			name = Debug;
+		};
+		DA20B1681DD4E87200F738BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DHM8245DER;
+				INFOPLIST_FILE = TeddygramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulmun.TeddygramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Teddygram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA20B1301DD4E87200F738BD /* Build configuration list for PBXProject "Teddygram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA20B15E1DD4E87200F738BD /* Debug */,
+				DA20B15F1DD4E87200F738BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA20B1601DD4E87200F738BD /* Build configuration list for PBXNativeTarget "Teddygram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA20B1611DD4E87200F738BD /* Debug */,
+				DA20B1621DD4E87200F738BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA20B1631DD4E87200F738BD /* Build configuration list for PBXNativeTarget "TeddygramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA20B1641DD4E87200F738BD /* Debug */,
+				DA20B1651DD4E87200F738BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA20B1661DD4E87200F738BD /* Build configuration list for PBXNativeTarget "TeddygramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA20B1671DD4E87200F738BD /* Debug */,
+				DA20B1681DD4E87200F738BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA20B13F1DD4E87200F738BD /* Teddygram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA20B1401DD4E87200F738BD /* Teddygram.xcdatamodel */,
+			);
+			currentVersion = DA20B1401DD4E87200F738BD /* Teddygram.xcdatamodel */;
+			path = Teddygram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA20B12D1DD4E87200F738BD /* Project object */;
+}
