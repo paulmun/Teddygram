@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58BD51AC1DD54DD600C8AC8D /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BD51AB1DD54DD600C8AC8D /* CameraController.swift */; };
 		DA20B1391DD4E87200F738BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B1381DD4E87200F738BD /* AppDelegate.swift */; };
 		DA20B13B1DD4E87200F738BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B13A1DD4E87200F738BD /* ViewController.swift */; };
 		DA20B13E1DD4E87200F738BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA20B13C1DD4E87200F738BD /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58BD51AB1DD54DD600C8AC8D /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		DA20B1351DD4E87200F738BD /* Teddygram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teddygram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA20B1381DD4E87200F738BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA20B13A1DD4E87200F738BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				DA20B1381DD4E87200F738BD /* AppDelegate.swift */,
 				DA20B13A1DD4E87200F738BD /* ViewController.swift */,
 				DA20B13C1DD4E87200F738BD /* Main.storyboard */,
+				58BD51AB1DD54DD600C8AC8D /* CameraController.swift */,
 				DA20B1421DD4E87200F738BD /* Assets.xcassets */,
 				DA20B1441DD4E87200F738BD /* LaunchScreen.storyboard */,
 				DA20B1471DD4E87200F738BD /* Info.plist */,
@@ -196,7 +199,7 @@
 				TargetAttributes = {
 					DA20B1341DD4E87200F738BD = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = DHM8245DER;
+						DevelopmentTeam = 67K6S2FD8J;
 						ProvisioningStyle = Automatic;
 					};
 					DA20B14B1DD4E87200F738BD = {
@@ -267,6 +270,7 @@
 			files = (
 				DA20B13B1DD4E87200F738BD /* ViewController.swift in Sources */,
 				DA20B1411DD4E87200F738BD /* Teddygram.xcdatamodeld in Sources */,
+				58BD51AC1DD54DD600C8AC8D /* CameraController.swift in Sources */,
 				DA20B1391DD4E87200F738BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,10 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DHM8245DER;
+				DEVELOPMENT_TEAM = 67K6S2FD8J;
 				INFOPLIST_FILE = Teddygram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.app2048;
+				PRODUCT_BUNDLE_IDENTIFIER = Teddygram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -432,10 +436,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DHM8245DER;
+				DEVELOPMENT_TEAM = 67K6S2FD8J;
 				INFOPLIST_FILE = Teddygram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.app2048;
+				PRODUCT_BUNDLE_IDENTIFIER = Teddygram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -518,6 +522,7 @@
 				DA20B1621DD4E87200F738BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA20B1631DD4E87200F738BD /* Build configuration list for PBXNativeTarget "TeddygramTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				DA20B1651DD4E87200F738BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA20B1661DD4E87200F738BD /* Build configuration list for PBXNativeTarget "TeddygramUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				DA20B1681DD4E87200F738BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CoP-E9-ted">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CoP-E9-ted">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -144,7 +144,7 @@
         <!--Camera-->
         <scene sceneID="i1H-R8-0nR">
             <objects>
-                <viewController id="2eu-9h-8SG" userLabel="Camera" sceneMemberID="viewController">
+                <viewController id="2eu-9h-8SG" userLabel="Camera" customClass="CameraController" customModule="Teddygram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fl6-YC-bNT"/>
                         <viewControllerLayoutGuide type="bottom" id="RFE-Sx-n5W"/>
@@ -153,23 +153,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUd-GH-M8r">
-                                <rect key="frame" x="163" y="306" width="60" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zXg-xX-PaV">
+                                <rect key="frame" x="0.0" y="28" width="375" height="426"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="202-ue-SII">
+                                <rect key="frame" x="152" y="503" width="70" height="70"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="5A5-4V-asg"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="takePicture:" destination="2eu-9h-8SG" eventType="touchUpInside" id="tEH-gb-FNY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zXg-xX-PaV" secondAttribute="trailing" id="54i-mL-UsY"/>
+                            <constraint firstItem="202-ue-SII" firstAttribute="centerX" secondItem="zXg-xX-PaV" secondAttribute="centerX" id="6Sv-Zu-Vmu"/>
+                            <constraint firstItem="RFE-Sx-n5W" firstAttribute="top" secondItem="202-ue-SII" secondAttribute="bottom" constant="45" id="7qy-w3-28J"/>
+                            <constraint firstItem="zXg-xX-PaV" firstAttribute="top" secondItem="fl6-YC-bNT" secondAttribute="bottom" constant="8" id="Ljx-Hs-J0l"/>
+                            <constraint firstItem="RFE-Sx-n5W" firstAttribute="top" secondItem="zXg-xX-PaV" secondAttribute="bottom" constant="164" id="Mm6-Rz-gtS"/>
+                            <constraint firstItem="zXg-xX-PaV" firstAttribute="leading" secondItem="ImC-gB-enW" secondAttribute="leading" id="bcY-LN-K9y"/>
+                            <constraint firstItem="202-ue-SII" firstAttribute="top" secondItem="zXg-xX-PaV" secondAttribute="bottom" constant="49" id="y2u-ks-w6J"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="unCamera" selectedImage="camera" id="iVN-LA-BcN">
                         <inset key="imageInsets" minX="3" minY="4" maxX="3" maxY="2"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="cameraView" destination="zXg-xX-PaV" id="Qaa-2c-Tsz"/>
+                        <outlet property="takePictureButton" destination="202-ue-SII" id="kh0-D8-sor"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pHk-jJ-bns" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3041" y="131"/>
+            <point key="canvasLocation" x="3040.8000000000002" y="130.88455772113943"/>
         </scene>
         <!--Activity-->
         <scene sceneID="Ew8-6F-B0h">
