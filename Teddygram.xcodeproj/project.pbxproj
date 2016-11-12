@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		58BD51AC1DD54DD600C8AC8D /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BD51AB1DD54DD600C8AC8D /* CameraController.swift */; };
 		DA20B1391DD4E87200F738BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B1381DD4E87200F738BD /* AppDelegate.swift */; };
-		DA20B13B1DD4E87200F738BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B13A1DD4E87200F738BD /* ViewController.swift */; };
+		DA20B13B1DD4E87200F738BD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B13A1DD4E87200F738BD /* ProfileViewController.swift */; };
 		DA20B13E1DD4E87200F738BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA20B13C1DD4E87200F738BD /* Main.storyboard */; };
 		DA20B1411DD4E87200F738BD /* Teddygram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA20B13F1DD4E87200F738BD /* Teddygram.xcdatamodeld */; };
 		DA20B1431DD4E87200F738BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA20B1421DD4E87200F738BD /* Assets.xcassets */; };
@@ -39,7 +39,7 @@
 		58BD51AB1DD54DD600C8AC8D /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		DA20B1351DD4E87200F738BD /* Teddygram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teddygram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA20B1381DD4E87200F738BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA20B13A1DD4E87200F738BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA20B13A1DD4E87200F738BD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DA20B13D1DD4E87200F738BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA20B1401DD4E87200F738BD /* Teddygram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teddygram.xcdatamodel; sourceTree = "<group>"; };
 		DA20B1421DD4E87200F738BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DA20B1381DD4E87200F738BD /* AppDelegate.swift */,
-				DA20B13A1DD4E87200F738BD /* ViewController.swift */,
+				DA20B13A1DD4E87200F738BD /* ProfileViewController.swift */,
 				DA20B13C1DD4E87200F738BD /* Main.storyboard */,
 				58BD51AB1DD54DD600C8AC8D /* CameraController.swift */,
 				DA20B1421DD4E87200F738BD /* Assets.xcassets */,
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA20B13B1DD4E87200F738BD /* ViewController.swift in Sources */,
+				DA20B13B1DD4E87200F738BD /* ProfileViewController.swift in Sources */,
 				DA20B1411DD4E87200F738BD /* Teddygram.xcdatamodeld in Sources */,
 				58BD51AC1DD54DD600C8AC8D /* CameraController.swift in Sources */,
 				DA20B1391DD4E87200F738BD /* AppDelegate.swift in Sources */,
@@ -425,6 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 67K6S2FD8J;
 				INFOPLIST_FILE = Teddygram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Teddygram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 67K6S2FD8J;
 				INFOPLIST_FILE = Teddygram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Teddygram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
