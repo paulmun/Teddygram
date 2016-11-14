@@ -45,7 +45,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="unSearch" selectedImage="search" id="z7z-FC-m5Z">
-                        <inset key="imageInsets" minX="3" minY="4" maxX="3" maxY="2"/>
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="nPa-x3-OP5" id="sDh-tI-rkH"/>
@@ -107,7 +107,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="unHome" selectedImage="home" id="cqq-Y9-amK">
-                        <inset key="imageInsets" minX="3" minY="4" maxX="3" maxY="2"/>
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1zp-iA-Npt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -172,7 +172,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="unCamera" selectedImage="camera" id="iVN-LA-BcN">
-                        <inset key="imageInsets" minX="3" minY="4" maxX="3" maxY="2"/>
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="cameraView" destination="zXg-xX-PaV" id="Qaa-2c-Tsz"/>
@@ -228,7 +228,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="unRecent" selectedImage="recent" id="e1i-I9-noA">
-                        <inset key="imageInsets" minX="3" minY="4" maxX="3" maxY="2"/>
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pa1-3M-PPi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -409,7 +409,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="unProfile" selectedImage="profile" id="uhu-Cx-jdn">
-                        <inset key="imageInsets" minX="3" minY="4" maxX="3" maxY="2"/>
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="profilePic" destination="p2r-CP-Jbe" id="n7y-LE-MtI"/>
