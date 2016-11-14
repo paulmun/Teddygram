@@ -11,14 +11,25 @@ import UIKit
 class ProfileViewController: UIViewController {
 
     let domain = "https://treylitefm.com/teddygram"
+    var posts: Array<[String:String]> = [
+        ["url": "prince.jpg"],
+        ["url": "prince.jpg"],
+        ["url": "prince.jpg"],
+        ["url": "prince.jpg"],
+    ]
+    
     @IBOutlet weak var profilePic: UIImageView!
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("Pre-load")
-        loadUsers()
+        //loadUsers()
+        
         print("Post-load")
+        tableView.delegate = self
+        tableView.dataSource = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -63,6 +74,10 @@ class ProfileViewController: UIViewController {
         }
     }
     
+    func tapImage(_ gestureRecognizer: UITapGestureRecognizer) {
+        print("image has been tapped")
+    }
+    
     func getDataFromUrl(url: URL, completion: @escaping (_ data: Data?, _  response: URLResponse?, _ error: Error?) -> Void) {
         URLSession.shared.dataTask(with: url) {
             (data, response, error) in
@@ -71,3 +86,36 @@ class ProfileViewController: UIViewController {
     }
 }
 
+extension ProfileViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return Int(ceil(Double(posts.count)/3))
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Post", for: indexPath)
+        
+        
+        for i in 0...2 {
+            let image = cell.contentView.subviews[0].subviews[i] as! UIImageView
+            
+            if posts.indices.contains(indexPath.row*3+i) {
+                if let url = posts[indexPath.row*3+i]["url"] {
+                    image.image = UIImage(named: url)
+                    image.isUserInteractionEnabled = true
+                    let tapGesture = UITapGestureRecognizer(target: self, action: #selector(tapImage(_:)))
+                    image.addGestureRecognizer(tapGesture)
+                }
+            }
+        }
+        
+        return cell
+    }
+    
+    @objc(tableView:heightForRowAtIndexPath:) func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return CGFloat(tableView.frame.size.width/3)
+    }
+}
+
+extension ProfileViewController: UITableViewDelegate {
+    
+}
